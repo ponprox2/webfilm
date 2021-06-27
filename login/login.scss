@@ -1,0 +1,42 @@
+.container
+{
+    width: 400px;
+
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background: white;
+    margin: 100px auto 100px 0;
+    text-align: center;
+    input{
+        outline: 1;
+        background: #f2f2f2;
+        width: 70%;
+        margin: 15px 0 15px 0;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    button{
+        width: 70%;
+        height: 50px;
+        margin-bottom: 15px;
+        outline: 0;
+        background-color: #4CAF50;
+        cursor: pointer;
+        text-transform: uppercase;
+        color: white;
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+    .massgage a
+    {
+       color: tomato;
+    }
+}
+
+.register-form{
+    display: none;
+}
